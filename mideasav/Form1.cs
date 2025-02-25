@@ -15,8 +15,8 @@ namespace mideasav
     public partial class Form1 : Form
     {
         int[] TabData = new int[275];
-        dynamic[] filtab = new dynamic[288000];
-        int BlockLigne = 0;
+        public static dynamic[] filtab = new dynamic[288000];
+        public static int BlockLigne = 0;
         public static int lireblock;
 
         public static string PcomS = "COM1";
@@ -102,7 +102,7 @@ namespace mideasav
             Val_Echangeur.Text = TabData[106].ToString() + "°c";
             Val_T1.Text = TabData[110].ToString() + "°c";
             Val_lev.Text = TabData[103].ToString() + "Pls";
-            Val_Tension.Text= TabData[119].ToString() + "V";
+            Val_Tension.Text = TabData[119].ToString() + "V";
 
             //foreach (int i in TabData)
             //rbx.Text += i + " ,";
@@ -278,6 +278,13 @@ namespace mideasav
         {
             pCOM.Text = PcomS;
             PacDevice.Text = PdevS;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Graphique FromGraph = new Graphique();
+            FromGraph.Show();
+
         }
     }
 

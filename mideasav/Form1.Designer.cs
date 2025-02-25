@@ -61,6 +61,7 @@
             CKB1 = new CheckBox();
             MajCom = new System.Windows.Forms.Timer(components);
             Val_Tension = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
@@ -287,10 +288,18 @@
             Val_Tension.ForeColor = SystemColors.Highlight;
             Val_Tension.Name = "Val_Tension";
             // 
+            // button2
+            // 
+            resources.ApplyResources(button2, "button2");
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button2);
             Controls.Add(Val_Tension);
             Controls.Add(CKB1);
             Controls.Add(NomFiles);
@@ -361,6 +370,7 @@
         public Label PacDevice;
         private System.Windows.Forms.Timer MajCom;
         private Label Val_Tension;
+        private Button button2;
     }
 
     }
