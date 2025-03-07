@@ -62,6 +62,8 @@
             MajCom = new System.Windows.Forms.Timer(components);
             Val_Tension = new Label();
             button2 = new Button();
+            Val_T2 = new Label();
+            Val_T2b = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
@@ -79,6 +81,7 @@
             // pictureBox1
             // 
             resources.ApplyResources(pictureBox1, "pictureBox1");
+            pictureBox1.BackColor = SystemColors.ButtonShadow;
             pictureBox1.Name = "pictureBox1";
             pictureBox1.TabStop = false;
             // 
@@ -295,10 +298,28 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // Val_T2
+            // 
+            resources.ApplyResources(Val_T2, "Val_T2");
+            Val_T2.BorderStyle = BorderStyle.Fixed3D;
+            Val_T2.FlatStyle = FlatStyle.Flat;
+            Val_T2.ForeColor = SystemColors.Highlight;
+            Val_T2.Name = "Val_T2";
+            // 
+            // Val_T2b
+            // 
+            resources.ApplyResources(Val_T2b, "Val_T2b");
+            Val_T2b.BorderStyle = BorderStyle.Fixed3D;
+            Val_T2b.FlatStyle = FlatStyle.Flat;
+            Val_T2b.ForeColor = SystemColors.Highlight;
+            Val_T2b.Name = "Val_T2b";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(Val_T2b);
+            Controls.Add(Val_T2);
             Controls.Add(button2);
             Controls.Add(Val_Tension);
             Controls.Add(CKB1);
@@ -371,6 +392,8 @@
         private System.Windows.Forms.Timer MajCom;
         private Label Val_Tension;
         private Button button2;
+        private Label Val_T2;
+        private Label Val_T2b;
     }
 
     }

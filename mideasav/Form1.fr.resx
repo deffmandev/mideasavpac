@@ -1934,10 +1934,10 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Val_Hp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 21</value>
+    <value>46, 21</value>
   </data>
   <data name="Val_Hp.Text" xml:space="preserve">
-    <value>0 Bars</value>
+    <value>-------</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 11</value>
@@ -1967,7 +1967,7 @@
     <value>83, 21</value>
   </data>
   <data name="Val_Debit.Text" xml:space="preserve">
-    <value>12.58 m3/h</value>
+    <value>--------</value>
   </data>
   <data name="Val_Debit.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -1988,7 +1988,7 @@
     <value>52, 21</value>
   </data>
   <data name="Val_OutTemp.Text" xml:space="preserve">
-    <value>12.5°c</value>
+    <value>--------</value>
   </data>
   <data name="Val_OutTemp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -2009,7 +2009,7 @@
     <value>52, 21</value>
   </data>
   <data name="Val_Intemp.Text" xml:space="preserve">
-    <value>12.8°c</value>
+    <value>--------</value>
   </data>
   <data name="Val_Intemp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -2030,7 +2030,7 @@
     <value>82, 21</value>
   </data>
   <data name="Val_PuissanceKw.Text" xml:space="preserve">
-    <value>16.8 kw/h</value>
+    <value>--------</value>
   </data>
   <data name="Val_PuissanceKw.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -2051,10 +2051,10 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Val_TempRef.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 21</value>
+    <value>51, 21</value>
   </data>
   <data name="Val_TempRef.Text" xml:space="preserve">
-    <value>70.8°c</value>
+    <value>--------</value>
   </data>
   <data name="Val_lev.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2072,10 +2072,10 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Val_lev.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 21</value>
+    <value>51, 21</value>
   </data>
   <data name="Val_lev.Text" xml:space="preserve">
-    <value>520pls</value>
+    <value>--------</value>
   </data>
   <data name="Val_Hz.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
@@ -2093,7 +2093,7 @@
     <value>51, 21</value>
   </data>
   <data name="Val_Hz.Text" xml:space="preserve">
-    <value>55 Hz</value>
+    <value>--------</value>
   </data>
   <data name="Val_Intensite.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
@@ -2111,7 +2111,7 @@
     <value>50, 17</value>
   </data>
   <data name="Val_Intensite.Text" xml:space="preserve">
-    <value>12 A</value>
+    <value>--------</value>
   </data>
   <data name="Val_Intensite.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -2132,10 +2132,10 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Val_Bp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 21</value>
+    <value>51, 21</value>
   </data>
   <data name="Val_Bp.Text" xml:space="preserve">
-    <value>0 Bars</value>
+    <value>--------</value>
   </data>
   <data name="Val_Exterieur.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
@@ -2153,7 +2153,7 @@
     <value>79, 21</value>
   </data>
   <data name="Val_Exterieur.Text" xml:space="preserve">
-    <value>12.8°c</value>
+    <value>--------</value>
   </data>
   <data name="Val_Exterieur.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -2174,10 +2174,10 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Val_Echangeur.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 21</value>
+    <value>51, 21</value>
   </data>
   <data name="Val_Echangeur.Text" xml:space="preserve">
-    <value>12.8°c</value>
+    <value>--------</value>
   </data>
   <data name="Val_Consign.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2216,10 +2216,10 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="Val_T1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 21</value>
+    <value>51, 21</value>
   </data>
   <data name="Val_T1.Text" xml:space="preserve">
-    <value>12.5°c</value>
+    <value>--------</value>
   </data>
   <data name="Val_FanV.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 12pt, style=Bold</value>
@@ -2237,7 +2237,7 @@
     <value>79, 21</value>
   </data>
   <data name="Val_FanV.Text" xml:space="preserve">
-    <value>120r/m</value>
+    <value>--------</value>
   </data>
   <data name="Val_FanV.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
@@ -2356,6 +2356,48 @@
   <data name="button2.Text" xml:space="preserve">
     <value>Graphique</value>
   </data>
+  <data name="Val_T2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="Val_T2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="Val_T2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 237</value>
+  </data>
+  <data name="Val_T2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Val_T2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="Val_T2.Text" xml:space="preserve">
+    <value>--------</value>
+  </data>
+  <data name="Val_T2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="Val_T2b.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="Val_T2b.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="Val_T2b.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 170</value>
+  </data>
+  <data name="Val_T2b.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="Val_T2b.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 21</value>
+  </data>
+  <data name="Val_T2b.Text" xml:space="preserve">
+    <value>--------</value>
+  </data>
+  <data name="Val_T2b.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
@@ -2363,10 +2405,13 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1044, 793</value>
+    <value>1043, 795</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>On</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 1, 1</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -22,6 +22,13 @@ namespace mideasav
         public static string PcomS = "COM1";
         public static string PdevS = "1";
 
+        public static byte chk_tempin = 1;
+        public static byte chk_tempout = 1;
+        public static byte chk_freq = 1;
+        public static byte chk_debit = 1;
+        public static byte chk_echext = 1;
+
+
 
         public Form1()
         {
@@ -103,6 +110,8 @@ namespace mideasav
             Val_T1.Text = TabData[110].ToString() + "°c";
             Val_lev.Text = TabData[103].ToString() + "Pls";
             Val_Tension.Text = TabData[119].ToString() + "V";
+            Val_T2.Text = TabData[112].ToString() + "°c";
+            Val_T2b.Text = TabData[113].ToString() + "°c";
 
             //foreach (int i in TabData)
             //rbx.Text += i + " ,";
@@ -284,7 +293,6 @@ namespace mideasav
         {
             Graphique FromGraph = new Graphique();
             FromGraph.Show();
-
         }
     }
 

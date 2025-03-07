@@ -33,6 +33,11 @@
             label3 = new Label();
             PortCom = new ComboBox();
             BtnValide = new Button();
+            cb1 = new CheckBox();
+            cb2 = new CheckBox();
+            cb3 = new CheckBox();
+            cb4 = new CheckBox();
+            cb5 = new CheckBox();
             SuspendLayout();
             // 
             // SelDevicePac
@@ -69,7 +74,7 @@
             // 
             PortCom.DropDownStyle = ComboBoxStyle.DropDownList;
             PortCom.FormattingEnabled = true;
-            PortCom.Items.AddRange(new object[] { "COM1", "COM2", "COM3" });
+            PortCom.Items.AddRange(new object[] { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "COM7", "COM8", "COM9", "COM10", "COM11", "COM12", "COM13", "COM14", "COM15", "COM16", "COM17", "COM18", "COM19", "COM20", "COM21", "COM22", "COM23", "COM24", "COM25" });
             PortCom.Location = new Point(230, 46);
             PortCom.Name = "PortCom";
             PortCom.Size = new Size(72, 23);
@@ -85,11 +90,66 @@
             BtnValide.UseVisualStyleBackColor = true;
             BtnValide.Click += BtnValide_Click;
             // 
-            // seting
+            // cb1
+            // 
+            cb1.AutoSize = true;
+            cb1.Location = new Point(394, 24);
+            cb1.Name = "cb1";
+            cb1.Size = new Size(68, 19);
+            cb1.TabIndex = 7;
+            cb1.Text = "Temp In";
+            cb1.UseVisualStyleBackColor = true;
+            // 
+            // cb2
+            // 
+            cb2.AutoSize = true;
+            cb2.Location = new Point(394, 50);
+            cb2.Name = "cb2";
+            cb2.Size = new Size(78, 19);
+            cb2.TabIndex = 8;
+            cb2.Text = "Temp Out";
+            cb2.UseVisualStyleBackColor = true;
+            // 
+            // cb3
+            // 
+            cb3.AutoSize = true;
+            cb3.Location = new Point(394, 75);
+            cb3.Name = "cb3";
+            cb3.Size = new Size(81, 19);
+            cb3.TabIndex = 9;
+            cb3.Text = "Frequance";
+            cb3.UseVisualStyleBackColor = true;
+            // 
+            // cb4
+            // 
+            cb4.AutoSize = true;
+            cb4.Location = new Point(394, 102);
+            cb4.Name = "cb4";
+            cb4.Size = new Size(54, 19);
+            cb4.TabIndex = 10;
+            cb4.Text = "Debit";
+            cb4.UseVisualStyleBackColor = true;
+            // 
+            // cb5
+            // 
+            cb5.AutoSize = true;
+            cb5.Location = new Point(394, 127);
+            cb5.Name = "cb5";
+            cb5.Size = new Size(131, 19);
+            cb5.TabIndex = 11;
+            cb5.Text = "Echangeur Exterieur";
+            cb5.UseVisualStyleBackColor = true;
+            // 
+            // SetingCom
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(353, 211);
+            ClientSize = new Size(967, 211);
+            Controls.Add(cb5);
+            Controls.Add(cb4);
+            Controls.Add(cb3);
+            Controls.Add(cb2);
+            Controls.Add(cb1);
             Controls.Add(BtnValide);
             Controls.Add(label3);
             Controls.Add(PortCom);
@@ -97,7 +157,7 @@
             Controls.Add(SelDevicePac);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             ImeMode = ImeMode.AlphaFull;
-            Name = "seting";
+            Name = "SetingCom";
             Text = "Configuration Port";
             Load += seting_Load;
             ResumeLayout(false);
@@ -111,5 +171,10 @@
         private Label label3;
         public ComboBox PortCom;
         private Button BtnValide;
+        private CheckBox cb1;
+        private CheckBox cb2;
+        private CheckBox cb3;
+        private CheckBox cb4;
+        private CheckBox cb5;
     }
 }
